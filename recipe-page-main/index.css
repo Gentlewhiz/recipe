@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif:wght@400&display=swap');
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: hsl(30, 54%, 90%); 
+  color: hsl(24, 5%, 18%); 
+  margin: 0;
+  padding: 20px;
+  display:block;
+  justify-content: center;
+}
+.container {
+  background-color: hsl(0, 0%, 100%); 
+  border-radius: 12px;
+  max-width: 600px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 5% auto;
+}
+img {
+    width: 100%;
+    border-radius: 12px;
+  }
+.Preparation {
+    width: 80%;
+    height: 80%;
+    margin: 3px auto;
+    background-color: hsl(330, 100%, 98%); 
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.Preparation h4{
+    margin-top: 10px;
+}
+.Preparation ul{
+    padding: 16px;
+    list-style-type: circle;
+    size: 1px;
+    color: hsl(332, 51%, 32%);
+    list-style: square;
+    
+}
+.ingredients {
+    display: block;
+    margin: 5%;
+    border-bottom: 1rem gray;
+}
+
+.Instructions{
+    display: block;
+    margin: 5%;
+
+}
+.Instructions p{
+    margin-left: 3rem;
+}
+.Instructions ul{
+    list-style:decimal;
+    
+    
+}
+
+
+h1 {
+  font-family: 'Young Serif', serif;
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px; 
+  line-height: 1.6;
+  color: hsl(30, 10%, 34%); 
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+  color: hsl(14, 45%, 36%); 
+  margin-top: 1.4em;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+  color: hsl(332, 51%, 32%); 
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+ul {
+  padding:0;
+  margin: 1rem;
+  gap: 1rem;
+}
+
+li {
+  font-size: 16px;
+  color: hsl(24, 5%, 18%); 
+  margin-bottom: 10px;
+}
+
+li b {
+  color: hsl(14, 45%, 36%); 
+}
+
+table {
+  width: 100%;
+  margin-top: 10px;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 10px 0;
+  border-bottom: 1px solid hsl(30, 18%, 87%); 
+  font-size: 16px;
+}
+
+td:first-child {
+  font-weight: 600;
+}
+
+td:last-child {
+  text-align: right;
+  color: hsl(14, 45%, 36%); 
+  font-weight: 700;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+.attribution {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 20px;
+  color: hsl(30, 10%, 34%); 
+}
+
+.attribution a {
+  color: hsl(332, 51%, 32%); 
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}
